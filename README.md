@@ -51,7 +51,8 @@ This generates a file called something like `callgrind.out.10270` which can be o
 $ kcachegrind callgrind.out.10270
 ```
 
-TODO add screen shot
+This should look something like this:
+![](kcachegrind.png){width=100%}
 
 This gives you an overview of which functions have been called, how many times and how much of the overall runtime was using in that function. It also generates a call-tree which shows this information in a more hierarchic view.
 
